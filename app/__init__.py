@@ -16,3 +16,4 @@ def create_app():
     api.add_namespace(ns)
 
     return app
+app = create_app()
